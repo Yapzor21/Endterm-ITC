@@ -1,0 +1,196 @@
+.header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.header {
+    background-color: blue;
+    color: white;
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+svg{
+    height: 16px;
+}
+
+
+.logo_shet{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    
+
+}
+
+.accs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    width: 20%;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 300px; 
+    position: relative; 
+  }
+  
+  .search-input {
+    flex: 1; 
+    border: none;
+    padding: 10px 30px 10px 10px; 
+    font-size: 16px;
+    border-style: none;
+overflow: hidden;
+
+  }
+  
+  .search-button {
+    position: absolute; 
+    right: -20px;
+    top: 50%; 
+    transform: translateY(-50%); 
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 5px;
+    overflow: hidden;
+  }
+
+  
+  .search-icon {
+    fill: #ccc; 
+    width: 20px;
+    height: 20px;
+  }
+
+.logo_shet input{
+    border-radius: 13px;
+    border-color: #d3d3d3;
+    border: 1px solid;
+    width: 20%;
+    padding: 8px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    .checks{
+        display: flex;
+    }
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    min-height: 100vh; /* Set minimum height for viewport */
+  }
+  
+  .left-content,
+  .right-content {
+    flex: 0 0 200px; /* Fixed width for left and right content */
+    padding: 20px;
+    background-color: #eee;
+    color: #333;
+  }
+  
+  .scrollable-content {
+    flex: 1; /* Take up remaining space */
+    overflow-y: scroll; /* Enable vertical scroll */
+    padding: 20px;
+  }
+
+  .left-content ul{
+    list-style: none;
+    padding: 0;
+  }
+
+  .right-content img{
+    height: 20vh;
+    width: 100%;
+  }
+
+  .checks{
+    display: flex;
+    border: #d3d3d3 solid 1px;
+    height: 45vh;
+    width: 100%;
+    overflow: hidden;
+    
+  }
+
+  .checks img{
+    width: 37%;
+    height: 35vh;
+    margin-top: 3px;
+  }
+
+  .name{
+    margin-top: 20%;
+    height: 20%;
+    text-align: left;
+width: 14%;
+margin-left: 10px;
+  }
+
+
+.quantity input{
+width: 40px;
+float:left;
+}
+
+.quantity{
+  margin-top: 19%;
+}
+
+.quantity button{
+  border-radius: 6px;
+  background-color: blue;
+  padding: 7px;
+  color: white;
+  width: 100px;
+  cursor: pointer;
+margin-top: 30%;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkss{
+  border: 1px solid #d3d3d3;
+  height: 45vh;
+  width: 30%;
+text-align: center;
+background-color: #d3d3d3;
+margin-left: 64px;
+}
+
+.checkss button{
+  border-radius: 8px;
+  background-color: blue;
+  padding: 7px;
+  color: white;
+  width: 100px;
+  cursor: pointer;
+}
+
+  .img{
+    display: flex;
+    margin-left: 1%;
+    width: 60%;
+  }
+
+  .quantity input{
+    width: 35px;
+  }
+
+  .quantity{
+    margin-left: 30px;
+  }

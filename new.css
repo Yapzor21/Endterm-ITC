@@ -1,0 +1,458 @@
+
+button{
+  cursor: pointer;
+}
+
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.header {
+    background-color: blue;
+    color: white;
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+svg{
+    height: 16px;
+}
+
+
+.logo_shet{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    
+
+}
+
+.accs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    width: 20%;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 300px; 
+    position: relative; 
+  }
+  
+  .search-input {
+    flex: 1; 
+    border: none;
+    padding: 10px 30px 10px 10px; 
+    font-size: 16px;
+    border-style: none;
+overflow: hidden;
+
+  }
+  
+  .search-button {
+    position: absolute; 
+    right: -20px;
+    top: 50%; 
+    transform: translateY(-50%); 
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 5px;
+    overflow: hidden;
+  }
+
+  
+  .search-icon {
+    fill: #ccc; 
+    width: 20px;
+    height: 20px;
+  }
+
+.logo_shet input{
+    border-radius: 13px;
+    border-color: #d3d3d3;
+    border: 1px solid;
+    width: 20%;
+    padding: 8px;
+}
+
+
+.container {
+    display: flex;
+    min-height: 400vh; /* Set minimum height for viewport */
+    flex-wrap: nowrap;
+    margin: 0;
+    height: 800px;
+  }
+  
+  .left-content,
+  .right-content {
+    flex: 0 0 200px; /* Fixed width for left and right content */
+    padding: 10px;
+    color: #333;
+    background-color:#eee ;
+
+  }
+
+  .left-content ul{
+    list-style: none;
+    padding: 0;
+  }
+  
+  .scrollable-content {
+    flex: 1; /* Take up remaining space */
+    overflow-y:auto; /* Enable vertical scroll */
+    padding: 10px;
+}
+  
+
+
+  .scrollable-content img{
+    width: 100%;
+    height: 55vh;
+  }
+
+
+  .ints{
+    border: 1px solid #d3d3d3;
+    height: 80vh;
+    display: flex;
+    width: 100%;
+    background-color: #d3d3d3;
+    
+    
+  }
+
+  
+
+  .secondpace_img h1{
+    margin-top: 0;
+  }
+
+
+
+.secondpace_img {
+background-image:url(images/classic-cheese-pizza-recipe-2-64429a0cb408b.jpg);    
+background-size: cover;
+height: 80vh;
+width: 30%;
+text-align: center;
+}
+
+
+
+.cats1 img{
+    height: 38vh;
+    width: 80%;
+    mix-blend-mode: multiply;
+}
+
+.cats1{
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 40px;
+    text-align:center;
+  }
+
+.cats1 button{
+    border-radius: 6px;
+    background-color: blue;
+    padding: 7px;
+    color: white;
+    width: 110px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.shops{
+    width: 97.4%;
+    padding: 20px;
+    overflow: hidden;
+    padding: 10px;
+    border: 1px #d3d3d3 solid;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shops span{
+  color: blue;
+}
+
+.shops h3{
+    margin-top:0;
+    margin-bottom: 8px;
+    color: blue;
+}
+
+.shops p, span{ 
+    margin-bottom: 7px;
+    color: blue;
+
+
+}
+
+a{
+  cursor: pointer;
+}
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#buts{
+    border-radius: 10px;
+    padding: 7px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.container_2{
+    display: flex;
+    justify-content: space-between;
+    height: 55vh;
+    margin-left: 5%;
+background-color: #d3d3d3;
+}
+.mage img{
+  width: 15px;
+}
+.cats{
+  text-align: center;
+  margin: 0%;
+}
+
+.cats img{
+  mix-blend-mode: multiply;
+}
+
+.cats p{
+  margin: 0%;
+  margin-bottom: 7px;
+}
+.cats span{
+  margin-top: 20px;
+}
+
+.cats button{
+  border-radius: 6px;
+  background-color: blue;
+  padding: 7px;
+  color: white;
+  width: 110px;
+  cursor: pointer;
+}
+
+.container_2 img{
+    height: 25vh;
+    width: 100%;
+    mix-blend-mode: multiply;
+    object-fit: fill;
+
+}
+
+.new {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    height: 60vh;
+    width: 90%;
+}
+
+.wrapper img{
+  cursor: pointer;
+}
+
+.buns button{
+    margin-top: 5px;
+}
+
+.shops_2 h1{
+    font-weight: bolder;
+    color: blue;
+
+}
+
+.shops_2 p, span{ 
+    color: black;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.eps{
+    flex: 1;
+    margin: 0;
+    padding-left: 13px;
+    
+}
+
+.eps h1{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.shops_2 img{ 
+    height: 35vh;
+  margin-left: 30px;
+  width: 60%;
+margin: 0;
+padding: 0%;
+    
+}
+
+
+
+.shops_2{
+    display: flex;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+
+
+.right-content img{
+    width: 250px;
+    height: 150px;
+}
+
+/* ITEMS DESCRIPTION*/
+
+.exit{
+  float: right;
+  padding: 10px;
+
+}
+
+.exit svg{
+  width: 30px;
+  height: 8vh;
+}
+.container-3{
+
+  background-color:  #d3d3d3;
+  
+}
+
+.container-4 img{
+  width: 60%;
+  margin-top: 40px;
+  mix-blend-mode: multiply;
+}
+
+.container-4{
+  display: flex;
+  text-align: center;
+
+}
+
+.name{
+  width: 15%;
+  height: 40vh;
+  margin-top: 20%;
+  text-align: left;
+
+
+}
+
+.product-rating label:hover,
+.product-rating input:checked ~ label {
+  color: gold; /* Hover effect and selected state color */
+}
+
+.product-rating label{
+  font-size: 8px;
+  margin: 0%;
+}
+
+.name h3{
+  margin: 0;
+}
+
+.name button{
+  border-radius: 6px;
+  background-color: blue;
+  padding: 7px;
+  color: white;
+  width: 110px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.value{
+  margin-top: 20px;
+}
+
+
+.images img{
+  width: 60px;
+  height: 9vh;
+  mix-blend-mode: multiply;
+}
+
+.images{
+  margin-top: 20px;
+  margin-left: 1%;
+}
+
+.paras{
+  margin-top: 5% ;
+  margin-left: 1%;
+}
+
+.deca button{
+  background-color: white;
+  padding: 2px;
+  cursor: pointer;
+}
+.table{
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  justify-content: stretch;
+}
+
+.table td, .table th{
+  width: 50%  ;
+  
+  padding: 5px;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table td{
+  padding: 15px;
+  
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Check out*/
+
+.checks{
+  border: 1px rebeccapurple solid;
+}
+
